@@ -1,0 +1,78 @@
+/* Styles for VyborZayma Stars */
+
+
+.vyborzayma_stars {
+	font-size: 14px;
+	color: inherit;
+	overflow: hidden;
+}
+
+.vyborzayma_stars_show_wrap.vyborzayma_stars_small, .vyborzayma_stars_add_wrap.vyborzayma_stars_small {
+	width: 80px;
+    height: 16px;
+    background: url( ../img/star.png ) left 0px;
+}
+
+.vyborzayma_stars_show_wrap.vyborzayma_stars_small .vyborzayma_stars_show_retair {
+	width: 80px;
+    height: 16px;
+    background: url( ../img/star.png ) left -42px;
+}
+
+.vyborzayma_stars_show_wrap.vyborzayma_stars_large, .vyborzayma_stars_add_wrap.vyborzayma_stars_large {
+	width: 160px;
+    height: 32px;
+    background: url( ../img/star_large.png ) left 0px;
+}
+
+.vyborzayma_stars_show_wrap.vyborzayma_stars_large .vyborzayma_stars_show_retair {
+	width: 160px;
+    height: 32px;
+    background: url( ../img/star_large.png ) left -74px;
+}
+
+.vyborzayma_stars_add_wrap {
+	cursor: pointer;
+	position: relative;
+}
+
+.vyborzayma_stars_add_wrap.vyborzayma_stars_small .vyborzayma_stars_show_retair_add {
+	width: 0;
+    height: 16px;
+    background: url( ../img/star.png ) left -42px;
+}
+
+.vyborzayma_stars_add_wrap.vyborzayma_stars_large .vyborzayma_stars_show_retair_add {
+	width: 0;
+    height: 32px;
+    background: url( ../img/star_large.png ) left -74px;
+}
+
+.vyborzayma_stars_large .vyborzayma_stars_add_hover {
+	height: 32px;
+	width: 0;
+	display: none;
+	background: url( ../img/star_large.png ) left -37px;
+	position: absolute;
+    top: 0px;
+}
+
+.vyborzayma_stars_small .vyborzayma_stars_add_hover {
+	height: 16px;
+	width: 0;
+	display: none;
+	background: url( ../img/star.png ) left -21px;
+	position: absolute;
+    top: 0px;
+}
+
+#vzstars_modal {
+	top: 50%;
+    margin-top: -150px;
+}
+
+#vzstars_modal .vyborzayma_stars_add_wrap {
+	margin: 0 auto;
+}
+
+
